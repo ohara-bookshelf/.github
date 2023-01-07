@@ -36,12 +36,11 @@ Table of content
 
 ## Overview:
 
-Bookshelf is a open source organization where my friend and I collaborated to developed our final year project on the computer engineering major.
+  Bookshelf is a open source organization where my friend and I collaborated to developed our final year project on the computer engineering major.
 
-The organization is basically a software developed, to exhale and faciliate the bibliomaniacs reading routine. 
-Bookshelf is a fully function website where readers can signup/signin, add new a want-to-read bookshelves, also fork/unfork other bibliomaniacs bookshelves. 
-According to the bookshelves collected by a user, a machine learning algorithm will generate a books recommendation which covers their interest.
-
+  The organization is basically a software developed, to exhale and faciliate the bibliomaniacs reading routine. 
+  Bookshelf is a fully function website where readers can signup/signin, add new a want-to-read bookshelves, also fork/unfork other bibliomaniacs bookshelves. 
+  According to the bookshelves collected by a user, a machine learning algorithm will generate a books recommendation which covers their interest.
 
 ## Features:
 ### Authentication & Authorization
@@ -79,7 +78,7 @@ According to the bookshelves collected by a user, a machine learning algorithm w
       <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/home-recommendation.png?raw=true" width="700" height="300"/>
     </p>
   #### Recommended Bookshelves
-        Recommending bookshelves is done according to the current user's owned bookshelves.
+   Recommending bookshelves is done according to the current user's owned bookshelves.
   <p align="center">
     <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/home-recommended-bookshelves.png?raw=true" width="700" height="300"/>
   </p>
