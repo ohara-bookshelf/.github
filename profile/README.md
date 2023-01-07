@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/116443184?s=400&u=a8230032fa89a0d03a32279ab8c3d1b7e3976828&v=4">
+  <img src="https://avatars.githubusercontent.com/u/116443184?s=400&u=a8230032fa89a0d03a32279ab8c3d1b7e3976828&v=4" width="300" height="300"/>
 </p>
 
 Table of content
@@ -13,7 +13,7 @@ Table of content
     * [Recommended Bookshelves](#recommended-bookshelves)
   * [User Profile](*user-profile)
     * [Bookshelves](#bookshelves)
-      * [Add Bookshelf](#add-bookshelf)
+      * [Create Bookshelf](#create-bookshelf)
       * [Add Books to a Given Bookshlef](#add-books-to-a-given-bookshelf)
       * [View Book](#view-book)
     * [Fork or Unfork Bookshelf](#fork-or-unfork-bookshelf)
@@ -22,7 +22,7 @@ Table of content
   * [Tech Stack](#tech-stack)
     * [Backend](#backend)
     * [Frontend](#frontend)
-  * [Machine Learning](#machine-learning)
+  * [Recommendation Systems(Machine learning)](#machine-learning)
     * [Popularity-Based Filtering Recommendation](#popularity-based-filtering-recommendation)
     * [Content-Based Filtering Recommendation](#content-based-filtering-recommendation)
     * [Collaborative Filtering Recommendation](#collaborative-filtering-recommendation)
@@ -43,30 +43,81 @@ According to the bookshelves collected by a user, a machine learning algorithm w
 ## Features:
 ### Authentication & Authorization
   We've used google authentication/authorization to make authentication/authorization safer and easier.
+  <p align="center">
+    <table>
+     <tr>
+        <td>
+          <p align="center">
+            <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/login.png?raw=true"/>
+          </p>
+        </td>
+        <td>
+          <p align="center">
+            <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/login3.png?raw=true"/>
+          </p>
+        </td>
+      </tr>
+  </table>
+ </p>
+
+
 ### Dashboard
   The dashboard contains the following 3 sections:
-#### Popular Bookshelves:
-  Here we've used the popularity based recommendation algorithm and most forked books feature to display popular bookshelves.
-  <p align="center">
-    <img src="https://avatars.githubusercontent.com/u/116443184?s=400&u=a8230032fa89a0d03a32279ab8c3d1b7e3976828&v=4">
-  </p>
-#### Recommended Books
   
-#### Recommended Bookshelves
-### User Profile
-#### Bookshelves
-#### Add Bookshelf
-#### Add Books to a Given Bookshlef
-#### View Book
-### Fork or Unfork Bookshelf
+  #### Popular Bookshelves:
+  Here we've used the popularity based recommendation algorithm and most forked books feature to display popular bookshelves.
+  
+  <p align="center">
+    <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/home-page-popular-books.png?raw=true" width="700" height="300"/>
+  </p>
+  
+  #### Recommended Books
+  Using the hybrid based recommendation algorithm(discribed later), a set of books will be displayed on this section.
+    <p align="center">
+      <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/home-recommendation.png?raw=true" width="700" height="300"/>
+    </p>
+  #### Recommended Bookshelves
+        Recommending bookshelves is done according to the current user's owned bookshelves.
+  <p align="center">
+    <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/home-recommended-bookshelves.png?raw=true" width="700" height="300"/>
+  </p>
+  
+### User Profile:
+  #### Bookshelves:
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/home-profile-bookshelves-visibility.png?raw=true" width="700" height="300"/>
+</p>
+
+
+#### Create Bookshelf
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/create-bookshelf.png?raw=true" width="700" height="300"/>
+</p> 
+
+  #### Add Books to a Given Bookshlef
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/add-books.png?raw=true" width="700" height="300"/>
+</p>
+
+  #### View Bookshelf:
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/change-visubility-delelte-bookshelf-delete-book.png?raw=true" width="700" height="300"/>
+</p>
+### Fork or Unfork Bookshelf:
+  This feature can be performed in all bookshelves created publicly. 
+  Each user will have the full control on forked bookshelves.
+  The inspiration of this feature comes from the github's forking 
   
 ## Used Technologies:
-
+  The development of this software has evolved multiple technologies highly used on the software development industry. 
+  As it is a full stack project powered with machine learning algorithms, it has allowed us to acquire the required knowledge to become full-stack web developers.
 
 ### Tech Stack:
 
 #### Backend:
-* [React Native & Redux](https://reactnative.dev/)
+On the backend part of the project, mostly the following techonlogies we're involved.
+* [React](https://reactjs.org/)
+* [React Query](https://react-query-v3.tanstack.com/)
 * [ThingSpeak REST API](https://www.mathworks.com/help/thingspeak/rest-api.html)
 * [Firebase](https://firebase.google.com/) 
   * Authentication
@@ -77,9 +128,70 @@ According to the bookshelves collected by a user, a machine learning algorithm w
 * [Firebase](https://firebase.google.com/) 
   * Authentication
   * Firestore
-#### Machine Learning:
-##### Popularity-Based Filtering Recommendation
-##### Content-Based Filtering Recommendation
-##### Collaborative Filtering Recommendation
-##### Hybrid-Based Filtering Recommendation
+#### Recommendation Systems(Machine Learning):
+
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/recommendation-system.png?raw=true" width="700" height="300"/>
+</p>
+
+  A recommendation system is usually built using 3 techniques which are content-based filtering, collaborative filtering, 
+  and a combination of both. Other then those 3 techniques there is another popular, simple and widely used recommendation 
+  technique which is popularity-based filtering.
+  
+
+
+##### Popularity-Based Filtering Recommendation:
+
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/popularity-based-recommendation.png?raw=true" width="700" height="300"/>
+</p>
+
+It is a type of recommendation system which works on the principle of popularity and or anything which is in trend. 
+These systems check about the product which are in trend or are most popular among the users and directly recommend them to the users. 
+
+
+  
+##### Content-Based Filtering Recommendation:
+
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/content%20based.png?raw=true"/>
+</p>
+The algorithm recommends similar products consumed by the user. In simple words, In this algorithm, we try to find  item look alike. In a nutshell, let’s say a person X has read ‘Harry potter and the prisoner of Azkaban’, the algorithm will recommend them the other books on the Harry potter Saga.
+Only it looks similar between the content and does not focus more on the person who is watching this. 
+Only it recommends the product which has the highest score based on past preferences.
+
+##### Collaborative Filtering Recommendation:
+
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/collaborative%20filtering.png?raw=true"/>
+</p>
+
+Collaborative based filtering recommendation systems are based on past interactions of users and target items.  
+In simple words here, we try to search for the look-alike customers and offer products based on what his or her lookalike has chosen. 
+Let us understand with an example. X and Y are two similar users and X user has watched A, B, and C movie. 
+And Y user has watched B, C, and D movie then we will recommend A movie to Y user and D movie to X user.
+YouTube has shifted its recommendation system from content-based to Collaborative based filtering technique. 
+If you have experienced sometimes there are also videos which not at all related to your history but then also 
+it recommends it because the other person similar to you has watched it.
+
+##### Hybrid-Based Filtering Recommendation:
+
+<p align="center">
+  <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/hybrid-based-recommendation.png?raw=true" width="700" height="300"/>
+</p>
+    
+It is basically a combination of both the above methods. It is a too complex model which recommends product based 
+on your history as well based on similar users like you.
+There are some organizations that use this method like Facebook which shows news which is important for you and for 
+others also in your network and the same is used by LinkedIn too.
+
+
+
+# References:
+## Recommendation Images:
+https://towardsdatascience.com/brief-on-recommender-systems-b86a1068a4dd
+https://www.researchgate.net/figure/The-Schema-for-the-model-based-popularity-mitigation_fig12_343768911
+https://medium.com/double-pointer/system-design-interview-recommendation-system-design-as-used-by-youtube-netflix-etc-c457aaec3ab
+
+## 
 
