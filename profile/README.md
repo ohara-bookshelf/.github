@@ -198,7 +198,7 @@ https://www.analyticsvidhya.com/blog/2021/06/build-book-recommendation-system-un
 https://analyticsindiamag.com/a-guide-to-building-hybrid-recommendation-systems-for-beginners/
 
 
-## Team
+## Contributors
 
 <div align="center">
 <table>
