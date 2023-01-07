@@ -187,11 +187,57 @@ others also in your network and the same is used by LinkedIn too.
 
 
 
-# References:
-## Recommendation Images:
+## References:
+### Recommendation Images:
 https://towardsdatascience.com/brief-on-recommender-systems-b86a1068a4dd
 https://www.researchgate.net/figure/The-Schema-for-the-model-based-popularity-mitigation_fig12_343768911
 https://medium.com/double-pointer/system-design-interview-recommendation-system-design-as-used-by-youtube-netflix-etc-c457aaec3ab
 
-## 
+### Recommendation Algorithms:
+https://www.analyticsvidhya.com/blog/2021/06/build-book-recommendation-system-unsupervised-learning-project/
+https://analyticsindiamag.com/a-guide-to-building-hybrid-recommendation-systems-for-beginners/
+
+
+## Team
+
+<div align="center">
+<table>
+  <tr>
+<td align="center">
+<a href="https://github.com/zidanomar">
+<img src="https://avatars.githubusercontent.com/u/57989473?v=4" width="100px;" alt="" style="border-radius:50%"/>
+<br />
+<sub><b>Zidan Omar Hamid</b></sub>
+</a>
+<br />
+</td>
+<td align="center">
+<a href="https://github.com/dembasow98">
+<img src="https://avatars.githubusercontent.com/u/62963091?v=4" width="100px;" alt="Demba Sow" style="border-radius:50%"/>
+<br />
+<sub><b>Demba Sow</b></sub>
+</a>
+<br />
+</td>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+## License
+
+[![MIT License][license-shield]][license-url]<br>
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/bennaaym/home-automation-system/blob/main/LICENSE
+
+
+
+
 
