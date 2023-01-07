@@ -90,6 +90,7 @@ According to the bookshelves collected by a user, a machine learning algorithm w
 
 
 #### Create Bookshelf
+
 <p align="center">
   <img src="https://github.com/Tasarim-Bitirme/.github/blob/main/images/create-bookshelf.png?raw=true" width="700" height="300"/>
 </p> 
@@ -115,19 +116,44 @@ According to the bookshelves collected by a user, a machine learning algorithm w
 ### Tech Stack:
 
 #### Backend:
-On the backend part of the project, mostly the following techonlogies we're involved.
-* [React](https://reactjs.org/)
-* [React Query](https://react-query-v3.tanstack.com/)
-* [ThingSpeak REST API](https://www.mathworks.com/help/thingspeak/rest-api.html)
-* [Firebase](https://firebase.google.com/) 
-  * Authentication
-  * Firestore
+
+- [nestjs](https://nestjs.com/)
+- [postgres](https://postgresql.org/)
+- [prisma](https://prisma.io/)
+- [class-transformer](https://github.com/typestack/class-transformer)
+- [class-validator](https://github.com/typestack/class-validator)
+- [google oauth](https://developers.google.com/identity/protocols/oauth2)
+- [passport](https://passportjs.org/)
+- [morgan](https://github.com/expressjs/morgan/)
+- [passport](https://passportjs.org/)
+- [passport](https://passportjs.org/)
+
 #### Frontend:
-* [React Native & Redux](https://reactnative.dev/)
-* [ThingSpeak REST API](https://www.mathworks.com/help/thingspeak/rest-api.html)
-* [Firebase](https://firebase.google.com/) 
-  * Authentication
-  * Firestore
+
+- [react](https://reactjs.org/)
+- [tanstack query](https://tanstack.com/query/v4)
+- [react router dom](https://reactrouter.com/en/main)
+- [chakra ui](https://chakra-ui.com/)
+- [formik](https://formik.org/)
+- [yup](https://github.com/jquense/yup)
+- [axios](https://axios-http.com/)
+- [vite](https://vitejs.dev/)
+- [react oauth](https://github.com/MomenSherif/react-oauth)
+- [framer motion](https://framer.com/)
+- [react icon](https://react-icons.github.io/react-icons/)
+
+#### DevTools:
+
+* [git](https://git-scm.com/)
+* [github](https://github.com/)
+* [docker](https://docker.com/)
+* [render](https://render.com/)
+* [postman](https://postman.com/)
+* [prettier](https://prettier.io/)
+* [eslint](https://eslint.org/)
+* [husky](https://typicode.github.io/husky/)
+
+
 #### Recommendation Systems(Machine Learning):
 
 <p align="center">
@@ -137,6 +163,8 @@ On the backend part of the project, mostly the following techonlogies we're invo
   A recommendation system is usually built using 3 techniques which are content-based filtering, collaborative filtering, 
   and a combination of both. Other then those 3 techniques there is another popular, simple and widely used recommendation 
   technique which is popularity-based filtering.
+  
+  In the project, The implementation of these algorithms is done in python jupyter IDE. 
   
 
 
@@ -236,8 +264,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/bennaaym/home-automation-system/blob/main/LICENSE
-
-
-
-
-
