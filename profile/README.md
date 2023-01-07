@@ -46,8 +46,8 @@ According to the bookshelves collected by a user, a machine learning algorithm w
 ## Features:
 ### Authentication & Authorization
   We've used google authentication/authorization to make authentication/authorization safer and easier.
-  <p align="center">
-    <table>
+  
+   <table align="center">
      <tr>
         <td>
           <p align="center">
@@ -61,7 +61,6 @@ According to the bookshelves collected by a user, a machine learning algorithm w
         </td>
       </tr>
   </table>
- </p>
 
 
 ### Dashboard
