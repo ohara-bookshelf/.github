@@ -66,7 +66,17 @@ According to the bookshelves collected by a user, a machine learning algorithm w
 ### Tech Stack:
 
 #### Backend:
+* [React Native & Redux](https://reactnative.dev/)
+* [ThingSpeak REST API](https://www.mathworks.com/help/thingspeak/rest-api.html)
+* [Firebase](https://firebase.google.com/) 
+  * Authentication
+  * Firestore
 #### Frontend:
+* [React Native & Redux](https://reactnative.dev/)
+* [ThingSpeak REST API](https://www.mathworks.com/help/thingspeak/rest-api.html)
+* [Firebase](https://firebase.google.com/) 
+  * Authentication
+  * Firestore
 #### Machine Learning:
 ##### Popularity-Based Filtering Recommendation
 ##### Content-Based Filtering Recommendation
