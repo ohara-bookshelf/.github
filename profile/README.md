@@ -264,4 +264,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/bennaaym/home-automation-system/blob/main/LICENSE
+[license-url]: https://github.com/Tasarim-Bitirme/.github/blob/main/LICENCE.md
